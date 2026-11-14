@@ -1,0 +1,13 @@
+package PraktikumP6;
+
+public class VariasiSyntaks {
+    public void jalankan() {
+        int[] arr1 = new int[3];
+        arr1[0] = 10; arr1[1] = 20; arr1[2] = 30;
+
+        int[] arr2 = {10, 20, 30, 40, 50};
+        int[] arr3 = new int[]{5, 10, 15};
+        
+        System.out.println("Array berhasil dibuat dengan 3 variasi sintaks berbeda.");
+    }
+}
